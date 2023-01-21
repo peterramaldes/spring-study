@@ -9,4 +9,6 @@ import org.springframework.data.relational.core.mapping.Table;
 public class Customer {
     @Id
     private Long id;
+    private String name;
+    private Integer age;
 }
